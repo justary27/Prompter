@@ -1,0 +1,476 @@
+{
+    "request": {
+          "method": "POST",
+          "url": "https://gemini.google.com/_/BardChatUi/data/assistant.lamda.BardFrontendService/StreamGenerate?bl=boq_assistant-bard-web-server_20240717.08_p4&f.sid=5044628581015328532&hl=en&_reqid=1410701&rt=c",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "gemini.google.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/_/BardChatUi/data/assistant.lamda.BardFrontendService/StreamGenerate?bl=boq_assistant-bard-web-server_20240717.08_p4&f.sid=5044628581015328532&hl=en&_reqid=1410701&rt=c"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "content-length",
+              "value": "2268"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            },
+            {
+              "name": "cookie",
+              "value": "_gcl_au=1.1.2146156686.1721510617; _ga=GA1.1.1522947128.1721510617; AEC=AVYB7cq8U4Rz8X_O-rg2thINIrn7nWlF-XUcyW6_VAb3I39xu_NkBMGmkv0; SID=g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zV13h2TEWZp6VsC6bgk00QRQACgYKAeYSARESFQHGX2MiuLG_5c7118mjYbTEJXEY7RoVAUF8yKoaLYt7cG5mjAzXNyptd8Gq0076; __Secure-1PSID=g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zVG9EGWyQcCvBk1WLiLRvuPAACgYKAVMSARESFQHGX2MiPbjtd84hjgLe6B5e2Py4dxoVAUF8yKoaXaM1ng_3ONdbgGCzJHtG0076; __Secure-3PSID=g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zV6ek9ZuYOZ1Uk6FafDNKe1QACgYKAb4SARESFQHGX2Miv7BhwZ6tkDxe2dQL_7sNPRoVAUF8yKoC_GqbPzPHdwHFKB3JL63F0076; HSID=A9p04rXN0XUh1fTxW; SSID=A67KZaLtVJiXSHjeF; APISID=SudhnXcvXebIywJw/Ajr4RDFf7vE-LYN2-; SAPISID=zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4; __Secure-1PAPISID=zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4; __Secure-3PAPISID=zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4; NID=516=G6sEm40yX_CemsgIcu7Qetn1qupVfElZdosgNa5WWRC6eXZEqvqWkXLAGMa6-8a6nUyOK-12DsUuRHoFZtssHTXwgAi_Cpcb76I7gt2_hI6wtLLbyqAaDB7trnYKD5cdXwAJLdRu2RHMvghHnOonsIu26dgeLioK3a-q_xGwnHIsHpNDJHBQmsUfYnY4ybIFC35VY_s2G_BwZmvwaZIhyf82C4FNTlRt7KXJNRvbkNsT1ek0ocUFyoz591FuFOAFu1VIokppUDqpq2l9iuVn69nGUrt1gwZr3wkuCdIYotSSd1tBchPSOyQUqtQ; _ga_WC57KJ50ZZ=GS1.1.1721510617.1.1.1721510925.0.0.0; __Secure-1PSIDTS=sidts-CjIB4E2dkQaUpOn5yTaAjwXaeKmKdK2uIEXSPlGR9xUqfvjZ5Z3RKHy02301UNvEEi-ETxAA; __Secure-3PSIDTS=sidts-CjIB4E2dkQaUpOn5yTaAjwXaeKmKdK2uIEXSPlGR9xUqfvjZ5Z3RKHy02301UNvEEi-ETxAA; SIDCC=AKEyXzWT54hyDcOArJqqhvWsVEUHg967wNONAapp1mI1HCigaVH4ez0vIpc9wEnMI7S4s0_v3A; __Secure-1PSIDCC=AKEyXzWtfODCvFjr3nz6K3cWUGafUM0Fk7lwGt6HzEgExBqX0SIOAgiU2dh8Srlkg-E-cZ06; __Secure-3PSIDCC=AKEyXzWsKUiOEort2cY061eu10eo6igwPeoDaXjgvEzXMTJZKwjM_s9kMkWKlene5oCFXPhW"
+            },
+            {
+              "name": "origin",
+              "value": "https://gemini.google.com"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://gemini.google.com/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+            },
+            {
+              "name": "sec-ch-ua-arch",
+              "value": "\"arm\""
+            },
+            {
+              "name": "sec-ch-ua-bitness",
+              "value": "\"64\""
+            },
+            {
+              "name": "sec-ch-ua-form-factors",
+              "value": "\"Desktop\""
+            },
+            {
+              "name": "sec-ch-ua-full-version",
+              "value": "\"128.0.6544.0\""
+            },
+            {
+              "name": "sec-ch-ua-full-version-list",
+              "value": "\"Chromium\";v=\"128.0.6544.0\", \"Not;A=Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"128.0.6544.0\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-model",
+              "value": "\"\""
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-ch-ua-platform-version",
+              "value": "\"14.5.0\""
+            },
+            {
+              "name": "sec-ch-ua-wow64",
+              "value": "?0"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-same-domain",
+              "value": "1"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "bl",
+              "value": "boq_assistant-bard-web-server_20240717.08_p4"
+            },
+            {
+              "name": "f.sid",
+              "value": "5044628581015328532"
+            },
+            {
+              "name": "hl",
+              "value": "en"
+            },
+            {
+              "name": "_reqid",
+              "value": "1410701"
+            },
+            {
+              "name": "rt",
+              "value": "c"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_gcl_au",
+              "value": "1.1.2146156686.1721510617",
+              "path": "/",
+              "domain": ".gemini.google.com",
+              "expires": "2024-10-18T21:23:37.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.1.1522947128.1721510617",
+              "path": "/",
+              "domain": ".gemini.google.com",
+              "expires": "2025-08-24T21:28:20.777Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "AEC",
+              "value": "AVYB7cq8U4Rz8X_O-rg2thINIrn7nWlF-XUcyW6_VAb3I39xu_NkBMGmkv0",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-01-16T21:23:56.056Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "SID",
+              "value": "g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zV13h2TEWZp6VsC6bgk00QRQACgYKAeYSARESFQHGX2MiuLG_5c7118mjYbTEJXEY7RoVAUF8yKoaLYt7cG5mjAzXNyptd8Gq0076",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.937Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__Secure-1PSID",
+              "value": "g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zVG9EGWyQcCvBk1WLiLRvuPAACgYKAVMSARESFQHGX2MiPbjtd84hjgLe6B5e2Py4dxoVAUF8yKoaXaM1ng_3ONdbgGCzJHtG0076",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.937Z",
+              "httpOnly": true,
+              "secure": true
+            },
+            {
+              "name": "__Secure-3PSID",
+              "value": "g.a000mAh-quz3hazKOnQvQlEVLkqajWroxp86AtopP6PJAeD-47zV6ek9ZuYOZ1Uk6FafDNKe1QACgYKAb4SARESFQHGX2Miv7BhwZ6tkDxe2dQL_7sNPRoVAUF8yKoC_GqbPzPHdwHFKB3JL63F0076",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.937Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "HSID",
+              "value": "A9p04rXN0XUh1fTxW",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.937Z",
+              "httpOnly": true,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "A67KZaLtVJiXSHjeF",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.937Z",
+              "httpOnly": true,
+              "secure": true
+            },
+            {
+              "name": "APISID",
+              "value": "SudhnXcvXebIywJw/Ajr4RDFf7vE-LYN2-",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.938Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.938Z",
+              "httpOnly": false,
+              "secure": true
+            },
+            {
+              "name": "__Secure-1PAPISID",
+              "value": "zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.938Z",
+              "httpOnly": false,
+              "secure": true
+            },
+            {
+              "name": "__Secure-3PAPISID",
+              "value": "zi908HChCuo9_tbf/AnD5gUgbmQPPC-uF4",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-08-24T21:28:06.938Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "NID",
+              "value": "516=G6sEm40yX_CemsgIcu7Qetn1qupVfElZdosgNa5WWRC6eXZEqvqWkXLAGMa6-8a6nUyOK-12DsUuRHoFZtssHTXwgAi_Cpcb76I7gt2_hI6wtLLbyqAaDB7trnYKD5cdXwAJLdRu2RHMvghHnOonsIu26dgeLioK3a-q_xGwnHIsHpNDJHBQmsUfYnY4ybIFC35VY_s2G_BwZmvwaZIhyf82C4FNTlRt7KXJNRvbkNsT1ek0ocUFyoz591FuFOAFu1VIokppUDqpq2l9iuVn69nGUrt1gwZr3wkuCdIYotSSd1tBchPSOyQUqtQ",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-01-19T21:23:56.938Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "_ga_WC57KJ50ZZ",
+              "value": "GS1.1.1721510617.1.1.1721510925.0.0.0",
+              "path": "/",
+              "domain": ".gemini.google.com",
+              "expires": "2025-08-24T21:28:45.988Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__Secure-1PSIDTS",
+              "value": "sidts-CjIB4E2dkQaUpOn5yTaAjwXaeKmKdK2uIEXSPlGR9xUqfvjZ5Z3RKHy02301UNvEEi-ETxAA",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-07-20T21:38:25.137Z",
+              "httpOnly": true,
+              "secure": true
+            },
+            {
+              "name": "__Secure-3PSIDTS",
+              "value": "sidts-CjIB4E2dkQaUpOn5yTaAjwXaeKmKdK2uIEXSPlGR9xUqfvjZ5Z3RKHy02301UNvEEi-ETxAA",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-07-20T21:38:25.137Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "SIDCC",
+              "value": "AKEyXzWT54hyDcOArJqqhvWsVEUHg967wNONAapp1mI1HCigaVH4ez0vIpc9wEnMI7S4s0_v3A",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-07-20T21:39:34.665Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__Secure-1PSIDCC",
+              "value": "AKEyXzWtfODCvFjr3nz6K3cWUGafUM0Fk7lwGt6HzEgExBqX0SIOAgiU2dh8Srlkg-E-cZ06",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-07-20T21:39:34.666Z",
+              "httpOnly": true,
+              "secure": true
+            },
+            {
+              "name": "__Secure-3PSIDCC",
+              "value": "AKEyXzWsKUiOEort2cY061eu10eo6igwPeoDaXjgvEzXMTJZKwjM_s9kMkWKlene5oCFXPhW",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2025-07-20T21:39:34.666Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None"
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 2268,
+          "body": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "f.req=%5Bnull%2C%22%5B%5B%5C%22Hello%20please%20tell%20me%20about%20asiatic%20lion%20in%20brief%5C%22%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2C0%5D%2C%5B%5C%22en%5C%22%5D%2C%5B%5C%22c_0113728e91b570f0%5C%22%2C%5C%22r_238243c375008427%5C%22%2C%5C%22rc_35c8a6a368710b25%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22AwAAAAAAAAAQ4DUFz3Xz2P7v18EgDRk%5C%22%5D%2C%5C%22!QEOlQxvNAAYp9OTFCfRCjGrSmBa-jsM7ADQBEArZ1H7zwhQSUea1pxN_CLqTr-PA2vSaB6xbnWFKKcxSRqB4Ptk12UhI4-gNbfZcJn6UAgAAAB9SAAAAAmgBB34ANa3I_GpJFY0UEYnTb85kT14D61pekaBHkbooOnvWtJmThWkc63oe2ZtWTX5kivCRnnTLQvbBmQKz-Pn5OTgp4eOA3KTzxxF32g0Hg2Vz5VQ50mpDYlsLITpiq77UHC9cj8PumMNRLZ-aaiOochVQBv0xKah2hsrqBwDbOwW3dMpm17O0pC4Bx3924CWFVAzeloO8FJ6atSmG2YQEf-Ego9yaA4HpazBOKopeAOJzG-Zza7Y6-unhmltnaCr6E7p26UCYnwZ_ovGfKTCB8rRVRf4jZ8VWU16NGL4N1e0v_TGwPCOKzXGZJrbGNOUtFAaDuIGm6Vrwzzu5htoYXboI9YFw46x-CIRk9HRh_shNMK20wbGI6YorBHvxkVhlsoUGxsh6XcIA1l19dgQ4ni-qxHA7u7y5RKRlAUHCscs6ISdCrG92peDROGi7M9ijdzr1VkX4CAc0GS1-I8hQeCsRH82T_IYmjWEapcl3bL2DMjKtb70jpdogEptYDj5Usu9LQuFSbNha3kmfIWHn2xLbdgMK67wJvxPwQjx7tMzrOKU7sSUVgOsmDBn5xWNl5jgU-MPZIixlKUZb3zmNoCa388oClBToJvDuqXUft0amw3VdH7TGjPVTzoepvX2v1EizxFuJbw3Z7PhNGP4BJAPj_qQm8Yg9MN7NMkfinVAfQj3OxO-hTzle9q_gWfSY-8IB8G2D6I9zMIs5lZwpK1MW7qQiKgDbThUzvUfWstmm5P6nnRf_X2OlsnbctoNSw0XUJ31T7Yd5nwpRaPPsu4D-Vrb0KSu4ZGJyKhdM8x4fbfntjhKA8TrscdsDETcNBGtIpnOasJrJGsorJ8J9YwXOt9kJKFHI5rDTAWrhAYhFPRX61aW05cV36Qg9YRnoj9tuMHsnjksDBqYUQcDohYaSA5Mcrv1NTm6H4FVzonwfadWAk8O9eYqKCcVhd_CzrM6jeSnRLdKj2T0bXPrpQx6bHuHHo78Y6WoXaOKwEA%5C%22%2C%5C%22a8d43d37a3db571e27292315c90d10cb%5C%22%2Cnull%2C%5B1%5D%2C1%2Cnull%2Cnull%2C1%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2C0%2C%5B%5B1%5D%5D%2C1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D%22%5D&at=AFQ3Xeb9wIHDMFrBpoUijkJyRT2M%3A1721510898458&",
+            "params": [
+              {
+                "name": "f.req",
+                "value": "%5Bnull%2C%22%5B%5B%5C%22Hello%20please%20tell%20me%20about%20asiatic%20lion%20in%20brief%5C%22%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2C0%5D%2C%5B%5C%22en%5C%22%5D%2C%5B%5C%22c_0113728e91b570f0%5C%22%2C%5C%22r_238243c375008427%5C%22%2C%5C%22rc_35c8a6a368710b25%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22AwAAAAAAAAAQ4DUFz3Xz2P7v18EgDRk%5C%22%5D%2C%5C%22!QEOlQxvNAAYp9OTFCfRCjGrSmBa-jsM7ADQBEArZ1H7zwhQSUea1pxN_CLqTr-PA2vSaB6xbnWFKKcxSRqB4Ptk12UhI4-gNbfZcJn6UAgAAAB9SAAAAAmgBB34ANa3I_GpJFY0UEYnTb85kT14D61pekaBHkbooOnvWtJmThWkc63oe2ZtWTX5kivCRnnTLQvbBmQKz-Pn5OTgp4eOA3KTzxxF32g0Hg2Vz5VQ50mpDYlsLITpiq77UHC9cj8PumMNRLZ-aaiOochVQBv0xKah2hsrqBwDbOwW3dMpm17O0pC4Bx3924CWFVAzeloO8FJ6atSmG2YQEf-Ego9yaA4HpazBOKopeAOJzG-Zza7Y6-unhmltnaCr6E7p26UCYnwZ_ovGfKTCB8rRVRf4jZ8VWU16NGL4N1e0v_TGwPCOKzXGZJrbGNOUtFAaDuIGm6Vrwzzu5htoYXboI9YFw46x-CIRk9HRh_shNMK20wbGI6YorBHvxkVhlsoUGxsh6XcIA1l19dgQ4ni-qxHA7u7y5RKRlAUHCscs6ISdCrG92peDROGi7M9ijdzr1VkX4CAc0GS1-I8hQeCsRH82T_IYmjWEapcl3bL2DMjKtb70jpdogEptYDj5Usu9LQuFSbNha3kmfIWHn2xLbdgMK67wJvxPwQjx7tMzrOKU7sSUVgOsmDBn5xWNl5jgU-MPZIixlKUZb3zmNoCa388oClBToJvDuqXUft0amw3VdH7TGjPVTzoepvX2v1EizxFuJbw3Z7PhNGP4BJAPj_qQm8Yg9MN7NMkfinVAfQj3OxO-hTzle9q_gWfSY-8IB8G2D6I9zMIs5lZwpK1MW7qQiKgDbThUzvUfWstmm5P6nnRf_X2OlsnbctoNSw0XUJ31T7Yd5nwpRaPPsu4D-Vrb0KSu4ZGJyKhdM8x4fbfntjhKA8TrscdsDETcNBGtIpnOasJrJGsorJ8J9YwXOt9kJKFHI5rDTAWrhAYhFPRX61aW05cV36Qg9YRnoj9tuMHsnjksDBqYUQcDohYaSA5Mcrv1NTm6H4FVzonwfadWAk8O9eYqKCcVhd_CzrM6jeSnRLdKj2T0bXPrpQx6bHuHHo78Y6WoXaOKwEA%5C%22%2C%5C%22a8d43d37a3db571e27292315c90d10cb%5C%22%2Cnull%2C%5B1%5D%2C1%2Cnull%2Cnull%2C1%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2C0%2C%5B%5B1%5D%5D%2C1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D%22%5D"
+              },
+              {
+                "name": "at",
+                "value": "AFQ3Xeb9wIHDMFrBpoUijkJyRT2M%3A1721510898458"
+              },
+              {
+                "name": "",
+                "value": ""
+              }
+            ]
+          }
+        },
+    "response": {
+        "status": 200,
+        "statusText": "",
+        "httpVersion": "h3",
+        "headers": [
+        {
+            "name": "accept-ch",
+            "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+        },
+        {
+            "name": "alt-svc",
+            "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        {
+            "name": "cache-control",
+            "value": "no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+            "name": "content-disposition",
+            "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+        },
+        {
+            "name": "content-encoding",
+            "value": "gzip"
+        },
+        {
+            "name": "content-security-policy",
+            "value": "require-trusted-types-for 'script';report-uri /_/BardChatUi/cspreport"
+        },
+        {
+            "name": "content-type",
+            "value": "application/json; charset=utf-8"
+        },
+        {
+            "name": "cross-origin-opener-policy",
+            "value": "same-origin-allow-popups"
+        },
+        {
+            "name": "cross-origin-resource-policy",
+            "value": "same-site"
+        },
+        {
+            "name": "date",
+            "value": "Sat, 20 Jul 2024 21:39:40 GMT"
+        },
+        {
+            "name": "expires",
+            "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+            "name": "permissions-policy",
+            "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+        },
+        {
+            "name": "pragma",
+            "value": "no-cache"
+        },
+        {
+            "name": "server",
+            "value": "ESF"
+        },
+        {
+            "name": "server-timing",
+            "value": "gfet4t7; dur=230"
+        },
+        {
+            "name": "set-cookie",
+            "value": "SIDCC=AKEyXzV9tzMqwptbbPJccQHQMhZKfyoFtNIR-3clFrEU8LVsrSLuMwDG_uziK91wv9wcURfe7Q; expires=Sun, 20-Jul-2025 21:39:40 GMT; path=/; domain=.google.com; priority=high"
+        },
+        {
+            "name": "set-cookie",
+            "value": "__Secure-1PSIDCC=AKEyXzV53d_AYP_9xikxMYyC_zqXPDPXvBiwr9fbiiM4Z8WXTII7DMHw8u2PVQRkTNQLAw8a; expires=Sun, 20-Jul-2025 21:39:40 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high"
+        },
+        {
+            "name": "set-cookie",
+            "value": "__Secure-3PSIDCC=AKEyXzW4lOcbzk1dclT2LfkyhaRl_BNiTmvhgEEhyPoFVnyEhvi0vpI1jktcMh8UcDRUGfhJ; expires=Sun, 20-Jul-2025 21:39:40 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none"
+        },
+        {
+            "name": "vary",
+            "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+        },
+        {
+            "name": "x-content-type-options",
+            "value": "nosniff"
+        },
+        {
+            "name": "x-frame-options",
+            "value": "SAMEORIGIN"
+        },
+        {
+            "name": "x-xss-protection",
+            "value": "0"
+        }
+        ],
+        "cookies": [
+        {
+            "name": "SIDCC",
+            "value": "AKEyXzV9tzMqwptbbPJccQHQMhZKfyoFtNIR-3clFrEU8LVsrSLuMwDG_uziK91wv9wcURfe7Q",
+            "path": "/",
+            "domain": ".google.com",
+            "expires": "2025-07-20T21:39:40.000Z",
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "__Secure-1PSIDCC",
+            "value": "AKEyXzV53d_AYP_9xikxMYyC_zqXPDPXvBiwr9fbiiM4Z8WXTII7DMHw8u2PVQRkTNQLAw8a",
+            "path": "/",
+            "domain": ".google.com",
+            "expires": "2025-07-20T21:39:40.000Z",
+            "httpOnly": true,
+            "secure": true
+        },
+        {
+            "name": "__Secure-3PSIDCC",
+            "value": "AKEyXzW4lOcbzk1dclT2LfkyhaRl_BNiTmvhgEEhyPoFVnyEhvi0vpI1jktcMh8UcDRUGfhJ",
+            "path": "/",
+            "domain": ".google.com",
+            "expires": "2025-07-20T21:39:40.000Z",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "none"
+        }
+        ],
+        "content": {
+        "size": 11004,
+        "mimeType": "application/json",
+        "text": ")]}'\n\n218\n[[\"wrb.fr\",null,\"[null,[null,\\\"r_d679393cf79b1a37\\\"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\\\"nC6cZsDSDcSfseMPrZsn\\\",null,null,[\\\"Lv8iIEEyCfVZOj8MGQRHW1MktaPXZcoRurD_FthsXkM\\\"]]\"]]\n1046\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion,\\\"],[],null,null,null,true,null,[1],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,false,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n1160\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered\\\"],[],null,null,null,true,null,[1],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,false,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n1330\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Once widespread across Asia, today they're restricted to Gir National Park in India.\\\\n\\\\n* **Distinct features:** Slightly smaller than African lions, with a\\\"],[],null,null,null,true,null,[1],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,false,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n1479\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Once widespread across Asia, today they're restricted to Gir National Park in India.\\\\n\\\\n* **Distinct features:** Slightly smaller than African lions, with a fold of skin along their belly (rare in African lions). Their mane is shorter and doesn't cover their ears. \\\\n\\\\n* **Color:** Their fur ranges from\\\"],[],null,null,null,true,null,[1],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,false,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n1624\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Once widespread across Asia, today they're restricted to Gir National Park in India.\\\\n\\\\n* **Distinct features:** Slightly smaller than African lions, with a fold of skin along their belly (rare in African lions). Their mane is shorter and doesn't cover their ears. \\\\n\\\\n* **Color:** Their fur ranges from tawny to buff-grey, sometimes with a silvery sheen.\\\\n\\\\n* **Social cats:** They live in prides, where females do most of the hunting.\\\\n\\\\n* **\\\"],[],null,null,null,true,null,[1],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,false,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n3794\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],[[\\\"Asiatic lion in brief\\\",1],[\\\"What is the meaning of Asiatic lion?\\\",4],[\\\"What is the history of Asiatic lion in India?\\\",4]],null,[[\\\"rc_c2e64779d1b68621\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Once widespread across Asia, today they're restricted to Gir National Park in India.\\\\n\\\\n* **Distinct features:** Slightly smaller than African lions, with a fold of skin along their belly (rare in African lions). Their mane is shorter and doesn't cover their ears. \\\\n\\\\n* **Color:** Their fur ranges from tawny to buff-grey, sometimes with a silvery sheen.\\\\n\\\\n* **Social cats:** They live in prides, where females do most of the hunting.\\\\n\\\\n* **Positive outlook:** Thankfully, their population has been increasing since 2010 thanks to conservation efforts.\\\\n \\\\nFor more details, you can check out WWF India's page on Asiatic lions [WWF India Asiatic lion].\\\"],[],null,null,null,true,null,[2],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true],[\\\"rc_c501982e1c26aa74\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat with a unique story. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Once widespread across Asia, today they're restricted to Gir National Park in India.\\\\n\\\\n* **Distinct features:** Slightly smaller than African lions, with a lighter build and a distinctive fold of skin along their belly. Their mane is also shorter and doesn't cover their ears.\\\\n\\\\n* **Social cats:** Like their African cousins, they live in prides with females doing most of the hunting.\\\\n\\\\n* **Conservation success story:**  Thanks to conservation efforts, their numbers are slowly increasing.\\\\n\\\\nIf you'd like to know more about Asiatic lions, I can tell you about their habitat, threats they face, or their role in Indian culture. \\\"],[],null,null,null,true,null,[2],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true],[\\\"rc_c76319bdd1152e3c\\\",[\\\"The Asiatic lion, also known as the Indian lion, is a majestic cat found only in India. Here's a quick summary:\\\\n\\\\n* **Endangered species:** Their habitat once spanned from West Asia to India, but now they're restricted to Gir National Park in Gujarat, India. \\\\n* **Smaller than African lions:** They are slightly built compared to their African cousins, with males sporting a shorter mane around their head and cheeks (ears are visible). \\\\n* **Unique belly fold:** A distinct feature is a fold of skin running along their belly, rarely seen in African lions. \\\\n* **Colour:** Their fur can range from tawny to buff-grey, with some appearing silvery in certain light.\\\\n\\\\nConservation efforts have seen their numbers rise in recent years, but they remain very much an endangered species. \\\"],[],null,null,null,true,null,[2],\\\"en\\\",null,null,[null,null,null,null,null,null,[0],[]],null,null,true,true,null,null,null,null,[false],null,false,null,true]],[\\\"Daurli, Meerut, Uttar Pradesh, India\\\",\\\"SWML_DESCRIPTION_FROM_YOUR_PLACES_HOME\\\",false,[[[null,null,null,[[300,200],14]]],[[2,null,null,null,null,[[[[290304142,777109652],60,null,null,null,null,true]],null,[1]]]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,null,true]],\\\"//www.google.com/maps/vt/data\\\\u003d3XAR8z7gHuKabh5AwFRyJTVvuCUTLDunSQDTGCgWTKyQwxH0eWhuniMWiL6gNodSuKT4gjfn9pD3Ib2vrapjnYm2tD7O-LlCwkzIVkZccxcZjqaCFsjrRFxaoZL9_w97teiBkWEoKSmg\\\"],null,null,\\\"IN\\\",null,null,null,null,null,true,null,null,null,null,\\\"en\\\",null,null,null,true,[]]\"]]\n227\n[[\"wrb.fr\",null,\"[null,[\\\"c_0113728e91b570f0\\\",\\\"r_d679393cf79b1a37\\\"],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,\\\"AwAAAAAAAAAQ4DUFz3Xz2P5v6GEhDRk\\\"]\"]]\n58\n[[\"di\",3214],[\"af.httprm\",3213,\"-87590499134926558\",50]]\n28\n[[\"e\",11,null,null,11004]]\n"
+        }
+    }
+}

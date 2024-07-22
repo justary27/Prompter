@@ -1,0 +1,295 @@
+{
+    "request": {
+          "method": "POST",
+          "url": "https://claude.ai/api/organizations/a849d7c8-452e-4a0a-a949-b24bd0fd29dd/chat_conversations/c9a51aaf-7af0-42d8-ab97-49e0622ae74d/completion",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "claude.ai"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/organizations/a849d7c8-452e-4a0a-a949-b24bd0fd29dd/chat_conversations/c9a51aaf-7af0-42d8-ab97-49e0622ae74d/completion"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "text/event-stream, text/event-stream"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "baggage",
+              "value": "sentry-environment=production,sentry-release=e9040c10af2237e4924b9d87150c3af07b09553b,sentry-public_key=58e9b9d0fc244061a1b54fe288b0e483,sentry-trace_id=a37125d941aa48bcbb6302f3ee97b588"
+            },
+            {
+              "name": "content-length",
+              "value": "123"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "cookie",
+              "value": "activitySessionId=72da8bc6-ec9c-492b-8c08-8ea77ac3c699; __cf_bm=HKKxQDtlZI5tOa3537md1tU60_QYKM9yMlgX5iljHrc-1721596882-1.0.1.1-6gvvyiVgwFs7Jy4zdq_yGrmxJFtqCuD0SRZ44UUEACGp5ejthFtDs92_OCnyTjeuKjU7khvvi9klBIjxkLnHiA; CH-prefers-color-scheme=dark; cf_clearance=LkSK6hZoVhYqJaT72uzeW6y0KYhCxM0okXK2DDsZIFs-1721596883-1.0.1.1-FxERaM.82_hva9q2lwG.1Dg3kenvIlKIC6lrjtwZ4ha6g7QUzoyamX2FliHvHhwIkV4l86wQKHnhYuQY0DrmtQ; __ssid=d9e48ace41a33be2b181f5b350c6f51; sessionKey=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; lastActiveOrg=a849d7c8-452e-4a0a-a949-b24bd0fd29dd; intercom-device-id-lupk8zyo=79860ca9-a63b-47b3-96f4-a1110447bb31; intercom-session-lupk8zyo=TjFpLzIzZG1pNTE0NTMvSzhFSWo4VSthVG84dElQOTRXdUw0dHRhV21INUdWajBua2FVZzRUaVFxaGttNmRMUS0ta3N0d2F1MjNkb2tuSUhIeGRySGt5Zz09--011b80b9bb7d1281e2a4f65044abc4021d053cfe"
+            },
+            {
+              "name": "origin",
+              "value": "https://claude.ai"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://claude.ai/chat/c9a51aaf-7af0-42d8-ab97-49e0622ae74d"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "sentry-trace",
+              "value": "a37125d941aa48bcbb6302f3ee97b588-8d8fe525684fcf49-0"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "activitySessionId",
+              "value": "72da8bc6-ec9c-492b-8c08-8ea77ac3c699",
+              "path": "/",
+              "domain": "claude.ai",
+              "expires": "2024-07-22T09:23:46.321Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cf_bm",
+              "value": "HKKxQDtlZI5tOa3537md1tU60_QYKM9yMlgX5iljHrc-1721596882-1.0.1.1-6gvvyiVgwFs7Jy4zdq_yGrmxJFtqCuD0SRZ44UUEACGp5ejthFtDs92_OCnyTjeuKjU7khvvi9klBIjxkLnHiA",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2024-07-21T21:51:22.351Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "CH-prefers-color-scheme",
+              "value": "dark",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2025-07-21T21:21:23.001Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "cf_clearance",
+              "value": "LkSK6hZoVhYqJaT72uzeW6y0KYhCxM0okXK2DDsZIFs-1721596883-1.0.1.1-FxERaM.82_hva9q2lwG.1Dg3kenvIlKIC6lrjtwZ4ha6g7QUzoyamX2FliHvHhwIkV4l86wQKHnhYuQY0DrmtQ",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2025-07-21T21:21:23.152Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "partitionKey": {
+                "topLevelSite": "https://claude.ai",
+                "hasCrossSiteAncestor": false
+              }
+            },
+            {
+              "name": "__ssid",
+              "value": "d9e48ace41a33be2b181f5b350c6f51",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2025-08-25T21:21:23.522Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sessionKey",
+              "value": "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",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2024-08-20T21:22:00.746Z",
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "lastActiveOrg",
+              "value": "a849d7c8-452e-4a0a-a949-b24bd0fd29dd",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2025-07-21T21:22:01.475Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "intercom-device-id-lupk8zyo",
+              "value": "79860ca9-a63b-47b3-96f4-a1110447bb31",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2025-04-17T21:56:53.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "intercom-session-lupk8zyo",
+              "value": "TjFpLzIzZG1pNTE0NTMvSzhFSWo4VSthVG84dElQOTRXdUw0dHRhV21INUdWajBua2FVZzRUaVFxaGttNmRMUS0ta3N0d2F1MjNkb2tuSUhIeGRySGt5Zz09--011b80b9bb7d1281e2a4f65044abc4021d053cfe",
+              "path": "/",
+              "domain": ".claude.ai",
+              "expires": "2024-07-28T21:23:33.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 123,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"prompt\":\"Describe asiatic lions in brief.\",\"timezone\":\"Asia/Calcutta\",\"attachments\":[],\"files\":[],\"rendering_mode\":\"raw\"}"
+          }
+    },
+    "response": {
+        "status": 200,
+        "statusText": "",
+        "httpVersion": "h3",
+        "headers": [
+            {
+                "name": "alt-svc",
+                "value": "h3=\":443\"; ma=86400"
+            },
+            {
+                "name": "cache-control",
+                "value": "no-cache"
+            },
+            {
+                "name": "cf-cache-status",
+                "value": "DYNAMIC"
+            },
+            {
+                "name": "cf-ray",
+                "value": "8a6e4107ff2ba78c-DEL"
+            },
+            {
+                "name": "content-encoding",
+                "value": "br"
+            },
+            {
+                "name": "content-security-policy",
+                "value": "script-src 'strict-dynamic' 'wasm-unsafe-eval' https: 'nonce-5fd2ca01-176b-4455-92b7-ba2ec88ca44f'; object-src 'none'; base-uri 'none'; frame-ancestors 'self'; block-all-mixed-content; img-src 'self' data: *.anthropic.com *.googletagmanager.com *.gstatic.com purecatamphetamine.github.io *.facebook.com px.ads.linkedin.com alb.reddit.com t.co analytics.twitter.com *.google.com *.google.ad *.google.ae *.google.com.af *.google.com.ag *.google.al *.google.am *.google.co.ao *.google.com.ar *.google.as *.google.at *.google.com.au *.google.az *.google.ba *.google.com.bd *.google.be *.google.bf *.google.bg *.google.com.bh *.google.bi *.google.bj *.google.com.bn *.google.com.bo *.google.com.br *.google.bs *.google.bt *.google.co.bw *.google.by *.google.com.bz *.google.ca *.google.cd *.google.cf *.google.cg *.google.ch *.google.ci *.google.co.ck *.google.cl *.google.cm *.google.cn *.google.com.co *.google.co.cr *.google.com.cu *.google.cv *.google.com.cy *.google.cz *.google.de *.google.dj *.google.dk *.google.dm *.google.com.do *.google.dz *.google.com.ec *.google.ee *.google.com.eg *.google.es *.google.com.et *.google.fi *.google.com.fj *.google.fm *.google.fr *.google.ga *.google.ge *.google.gg *.google.com.gh *.google.com.gi *.google.gl *.google.gm *.google.gr *.google.com.gt *.google.gy *.google.com.hk *.google.hn *.google.hr *.google.ht *.google.hu *.google.co.id *.google.ie *.google.co.il *.google.im *.google.co.in *.google.iq *.google.is *.google.it *.google.je *.google.com.jm *.google.jo *.google.co.jp *.google.co.ke *.google.com.kh *.google.ki *.google.kg *.google.co.kr *.google.com.kw *.google.kz *.google.la *.google.com.lb *.google.li *.google.lk *.google.co.ls *.google.lt *.google.lu *.google.lv *.google.com.ly *.google.co.ma *.google.md *.google.me *.google.mg *.google.mk *.google.ml *.google.com.mm *.google.mn *.google.com.mt *.google.mu *.google.mv *.google.mw *.google.com.mx *.google.com.my *.google.co.mz *.google.com.na *.google.com.ng *.google.com.ni *.google.ne *.google.nl *.google.no *.google.com.np *.google.nr *.google.nu *.google.co.nz *.google.com.om *.google.com.pa *.google.com.pe *.google.com.pg *.google.com.ph *.google.com.pk *.google.pl *.google.pn *.google.com.pr *.google.ps *.google.pt *.google.com.py *.google.com.qa *.google.ro *.google.ru *.google.rw *.google.com.sa *.google.com.sb *.google.sc *.google.se *.google.com.sg *.google.sh *.google.si *.google.sk *.google.com.sl *.google.sn *.google.so *.google.sm *.google.sr *.google.st *.google.com.sv *.google.td *.google.tg *.google.co.th *.google.com.tj *.google.tl *.google.tm *.google.tn *.google.to *.google.com.tr *.google.tt *.google.com.tw *.google.co.tz *.google.com.ua *.google.co.ug *.google.co.uk *.google.com.uy *.google.co.uz *.google.com.vc *.google.co.ve *.google.co.vi *.google.com.vn *.google.vu *.google.ws *.google.rs *.google.co.za *.google.co.zm *.google.co.zw *.google.cat; upgrade-insecure-requests"
+            },
+            {
+                "name": "content-type",
+                "value": "text/event-stream; charset=utf-8"
+            },
+            {
+                "name": "date",
+                "value": "Sun, 21 Jul 2024 21:23:47 GMT"
+            },
+            {
+                "name": "server",
+                "value": "cloudflare"
+            },
+            {
+                "name": "set-cookie",
+                "value": "activitySessionId=72da8bc6-ec9c-492b-8c08-8ea77ac3c699; Path=/; Expires=Mon, 22 Jul 2024 09:23:46 GMT; Secure; HttpOnly; SameSite=lax"
+            },
+            {
+                "name": "strict-transport-security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+                "name": "vary",
+                "value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
+            },
+            {
+                "name": "via",
+                "value": "1.1 google"
+            },
+            {
+                "name": "x-activity-session-id",
+                "value": "72da8bc6-ec9c-492b-8c08-8ea77ac3c699"
+            },
+            {
+                "name": "x-content-type-options",
+                "value": "nosniff"
+            },
+            {
+                "name": "x-frame-options",
+                "value": "SAMEORIGIN"
+            },
+            {
+                "name": "x-request-pathname",
+                "value": "/api/organizations/a849d7c8-452e-4a0a-a949-b24bd0fd29dd/chat_conversations/c9a51aaf-7af0-42d8-ab97-49e0622ae74d/completion"
+            },
+            {
+                "name": "x-xss-protection",
+                "value": "1; mode=block"
+            }
+            ],
+            "cookies": [
+            {
+                "name": "activitySessionId",
+                "value": "72da8bc6-ec9c-492b-8c08-8ea77ac3c699",
+                "path": "/",
+                "domain": "claude.ai",
+                "expires": "2024-07-22T09:23:46.000Z",
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "lax"
+            }
+        ],
+        "content": {
+        "size": 23181,
+        "mimeType": "text/event-stream",
+        "text": "event: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Asiatic lions (\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"Panthera leo\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}             }\n\nevent: ping\ndata: {\"type\": \"ping\"}\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" persica) are\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null} }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" a subspecies of\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null} }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" lion native to India\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\".\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}  }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Here\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"'s\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}    }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" a brief description:\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}  }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\n1\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\". Location\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}     }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\": They\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}               }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" are found primarily\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}              }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" in the G\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"ir Forest of\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}    }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Gujarat, India.\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}        }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\n2. Physical\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}}\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" characteristics\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\":\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}  }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n   \",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}      }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"-\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}        }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Slightly\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}              }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" smaller\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}          }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" than\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" African lions\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}    }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n   - Males\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}     }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" have shorter\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\",\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}  }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" s\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"parser m\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}    }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"anes\\n   -\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Distinctive\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" fol\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}          }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"d of skin along\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}         }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" their\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" belly\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\n3. Population\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\":\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Critically\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}        }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" endangered, with only\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" a few hundre\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}      }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"d individuals remaining in the\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" wild.\\n\\n4\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}               }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\".\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}           }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Behavior: They\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}              }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" live\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}        }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" in smaller\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}     }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" pride\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}          }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" groups compare\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}      }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"d to African lions.\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}             }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\n5. Diet\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}          }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\": Primarily deer\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\", ant\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}     }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"elope, and wil\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}         }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"d boar.\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}               }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\n6. Conservation:\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Subject\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}             }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" of\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" intense\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}          }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" conservation efforts by the\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}              }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Indian\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" government.\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\\n\\nWoul\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}            }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"d you like me to\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}      }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" elaborate\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}         }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" on any specific\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null} }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" aspect\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}   }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" of\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}  }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\" Asiatic lions?\",\"stop_reason\":null,\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":null,\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}         }\n\nevent: completion\ndata: {\"type\":\"completion\",\"id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"completion\":\"\",\"stop_reason\":\"stop_sequence\",\"model\":\"claude-3-5-sonnet-20240620\",\"stop\":\"\\n\\nHuman:\",\"log_id\":\"chatcompl_01D36evU5g9Lo61W8TYie4Mh\",\"messageLimit\":{\"type\":\"within_limit\",\"resetsAt\":null,\"remaining\":null,\"perModelLimit\":null}       }\n\n"
+        }
+    }
+}

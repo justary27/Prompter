@@ -1,0 +1,161 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "https://https.api.phind.com/infer/",
+        "httpVersion": "h3",
+        "headers": [
+        {
+            "name": ":authority",
+            "value": "https.api.phind.com"
+        },
+        {
+            "name": ":method",
+            "value": "POST"
+        },
+        {
+            "name": ":path",
+            "value": "/infer/"
+        },
+        {
+            "name": ":scheme",
+            "value": "https"
+        },
+        {
+            "name": "accept",
+            "value": "*/*"
+        },
+        {
+            "name": "accept-encoding",
+            "value": "gzip, deflate, br, zstd"
+        },
+        {
+            "name": "accept-language",
+            "value": "en-GB,en;q=0.9"
+        },
+        {
+            "name": "content-length",
+            "value": "381"
+        },
+        {
+            "name": "content-type",
+            "value": "application/json;charset=UTF-8"
+        },
+        {
+            "name": "origin",
+            "value": "https://www.phind.com"
+        },
+        {
+            "name": "priority",
+            "value": "u=1, i"
+        },
+        {
+            "name": "referer",
+            "value": "https://www.phind.com/"
+        },
+        {
+            "name": "sec-ch-ua",
+            "value": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+        },
+        {
+            "name": "sec-ch-ua-mobile",
+            "value": "?0"
+        },
+        {
+            "name": "sec-ch-ua-platform",
+            "value": "\"macOS\""
+        },
+        {
+            "name": "sec-fetch-dest",
+            "value": "empty"
+        },
+        {
+            "name": "sec-fetch-mode",
+            "value": "cors"
+        },
+        {
+            "name": "sec-fetch-site",
+            "value": "same-site"
+        },
+        {
+            "name": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+        }
+        ],
+        "queryString": [],
+        "cookies": [],
+        "headersSize": -1,
+        "bodySize": 381,
+        "postData": {
+        "mimeType": "application/json;charset=UTF-8",
+        "text": "{\"question\":\"Describe asiatic lions in brief.\",\"options\":{\"date\":\"22/07/2024\",\"language\":\"en-GB\",\"detailed\":true,\"anonUserId\":\"f00y8tvlsmw2w1hdmihp2mll\",\"answerModel\":\"Phind-70B\",\"searchMode\":\"auto\",\"allowMultiSearch\":false,\"customLinks\":[]},\"context\":\"\",\"backend_token\":\"FtoH5qOyQ6150/BEmi0TKYO7FCJGwakBvDeYheEjkrsqVIqnvWyxPA/ZfEUfg/67e50qzQZPHQ==\",\"challenge\":-2.213036410342878}"
+        }
+    },
+    "response": {
+        "status": 200,
+        "statusText": "",
+        "httpVersion": "h3",
+        "headers": [
+        {
+            "name": "access-control-allow-credentials",
+            "value": "true"
+        },
+        {
+            "name": "access-control-allow-origin",
+            "value": "https://www.phind.com"
+        },
+        {
+            "name": "alt-svc",
+            "value": "h3=\":443\"; ma=86400"
+        },
+        {
+            "name": "cache-control",
+            "value": "no-cache"
+        },
+        {
+            "name": "cf-cache-status",
+            "value": "DYNAMIC"
+        },
+        {
+            "name": "cf-ray",
+            "value": "8a6e5890fc2db2cb-DEL"
+        },
+        {
+            "name": "content-type",
+            "value": "text/event-stream; charset=utf-8"
+        },
+        {
+            "name": "date",
+            "value": "Sun, 21 Jul 2024 21:39:50 GMT"
+        },
+        {
+            "name": "server",
+            "value": "cloudflare"
+        },
+        {
+            "name": "set-cookie",
+            "value": "__cf_bm=D7xj9gIh2UEPqOlOhKfsl4kf3hHZ_QEHUrd8ql.RYRk-1721597990-1.0.1.1-GMS6tOnHVSd2T3O_sPAk_W_UVJBAFkZxBEqfZ9.By45uJ1P6xS1uIpMd4NyaMYvQmrZ_ykaD3xLbk22UMxLWgw; path=/; expires=Sun, 21-Jul-24 22:09:50 GMT; domain=.phind.com; HttpOnly; Secure; SameSite=None"
+        },
+        {
+            "name": "vary",
+            "value": "Origin"
+        }
+        ],
+        "cookies": [
+        {
+            "name": "__cf_bm",
+            "value": "D7xj9gIh2UEPqOlOhKfsl4kf3hHZ_QEHUrd8ql.RYRk-1721597990-1.0.1.1-GMS6tOnHVSd2T3O_sPAk_W_UVJBAFkZxBEqfZ9.By45uJ1P6xS1uIpMd4NyaMYvQmrZ_ykaD3xLbk22UMxLWgw",
+            "path": "/",
+            "domain": ".phind.com",
+            "expires": "2024-07-21T22:09:50.000Z",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "None"
+        }
+        ],
+        "content": {
+        "size": 20261,
+        "mimeType": "text/event-stream",
+        "text": "data: <PHIND_SPAN_BEGIN>{\"id\": \"n2hdh00cz3w3c8o4xr21\", \"indicator\": \"Total answer\", \"parent\": null, \"start\": 1721597990.7325363, \"end\": null, \"indent\": 0, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"rx3l8wj0xwyzrhcieo0w\", \"indicator\": \"Get context + DB\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597990.7334375, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"t22mz8urh5jfreyg2kns\", \"indicator\": \"Rewrite question\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.7338202, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"t22mz8urh5jfreyg2kns\", \"indicator\": \"Rewrite question\", \"end\": 1721597990.7339349}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"wi6qteojfh1sch6fgyz8\", \"indicator\": \"Images classifier\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.7339828, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"wi6qteojfh1sch6fgyz8\", \"indicator\": \"Images classifier\", \"end\": 1721597990.734074}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"mdr96zkknntsvvysuljo\", \"indicator\": \"Pro model permissions check\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.7340958, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"qa7ufj22v1tfswp998fc\", \"indicator\": \"Paying user\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.7341833, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"lcsyrihp552gwy1lir4i\", \"indicator\": \"User profile\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.7342718, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"tft99xyawpz4vhtc8r3u\", \"indicator\": \"Fetch training opt out\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597990.7378964, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"lcsyrihp552gwy1lir4i\", \"indicator\": \"User profile\", \"end\": 1721597990.7404828}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"dfkzdj816btm36nz16qr\", \"indicator\": \"Rate limit check\", \"parent\": \"mdr96zkknntsvvysuljo\", \"start\": 1721597990.7410216, \"end\": null, \"indent\": 3, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"qa7ufj22v1tfswp998fc\", \"indicator\": \"Paying user\", \"end\": 1721597990.7412248}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"tft99xyawpz4vhtc8r3u\", \"indicator\": \"Fetch training opt out\", \"end\": 1721597990.7412632}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"dfkzdj816btm36nz16qr\", \"indicator\": \"Rate limit check\", \"end\": 1721597990.7437043}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"mdr96zkknntsvvysuljo\", \"indicator\": \"Pro model permissions check\", \"end\": 1721597990.743729}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"wbtxlp37uw0o54mifvzk\", \"indicator\": \"Get web results\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597990.8679962, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"iqvhxsccux2v0oeboqtq\", \"indicator\": \"A1\", \"parent\": \"wbtxlp37uw0o54mifvzk\", \"start\": 1721597990.8682146, \"end\": null, \"indent\": 3, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"iqvhxsccux2v0oeboqtq\", \"indicator\": \"A1\", \"end\": 1721597991.3575852}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"wbtxlp37uw0o54mifvzk\", \"indicator\": \"Get web results\", \"end\": 1721597991.3576493}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_WEBRESULTS>[{\"title\": \"Asiatic lions | London Zoo\", \"description\": \"\", \"url\": \"https://www.londonzoo.org/whats-here/animals/asiatic-lion#:~:text=The%20male%20Asiatic%20lion%20has,that%20runs%20along%20its%20belly.\"}, {\"title\": \"Asiatic lion\", \"description\": \"The Asiatic lion is a lion population of the subspecies Panthera leo leo. Since the turn of the 20th century, its range has been restricted to Gir National\\u00a0...\", \"url\": \"https://en.wikipedia.org/wiki/Asiatic_lion\"}, {\"title\": \"Asiatic Lion\", \"description\": \"Asiatic lions. Scientific Name: Panthera leo persica. Type: Mammals. Diet: Carnivore ... Asiatic lions and African lions are subspecies of the same species.\", \"url\": \"https://www.nationalgeographic.com/animals/mammals/facts/asiatic-lion\"}, {\"title\": \"Asiatic lion\", \"description\": \"Asiatic lions are slightly smaller than African lions. Adult males weigh 160 to 190 kg, while females weigh 110 to 120 kg. The height at the shoulders is about\\u00a0...\", \"url\": \"https://www.wwfindia.org/about_wwf/priority_species/threatened_species/asiatic_lion/\"}, {\"title\": \"Asiatic Lion - Interesting facts, diet, habitat, Threats, & ...\", \"description\": \"The Asiatic lion is one of the most amazing, and powerful big cats found in India. The Panthera Leo's population of lions in India is found in Gujarat.\", \"url\": \"https://bigcatsindia.com/asiatic-lion/\"}, {\"title\": \"Asian Lion - Facts, Diet, Habitat & Pictures on Animalia.bio\", \"description\": \"Asian lions are carnivores. They mainly feed on wild boars, buffaloes, antelopes, and deer. They also regularly visit specific sites within the protected area\\u00a0...\", \"url\": \"https://animalia.bio/asian-lion\"}, {\"title\": \"Asiatic lion - Simple English Wikipedia, the free encyclopedia\", \"description\": \"The Asiatic lion (Panthera leo persica) is a subspecies of the lion. It survives in the wild today only in India, but has also been sighted in a few areas\\u00a0...\", \"url\": \"https://simple.wikipedia.org/wiki/Asiatic_lion\"}, {\"title\": \"Asiatic Lion: Characteristics and Conservation Status\", \"description\": \"The Asiatic Lion (also known as the Persian Lion or Indian Lion) is a member of the Panthera Leo Leo subspecies that is restricted to India.\", \"url\": \"https://byjus.com/free-ias-prep/asiatic-lion/\"}, {\"title\": \"Asiatic Lion: Asian Lion Species Facts, Conservation\", \"description\": \"The Asiatic lion is a big cat and lion subspecies that can only be found in Gujarat, India. Other big cats that inhabit India include the clouded leopard,\\u00a0...\", \"url\": \"https://bigcatswildcats.com/lion/asiatic-lion/\"}, {\"title\": \"Asiatic Lion | Unsung Animals Wiki - Fandom\", \"description\": \"The Asiatic lion (Panthera leo leo) also commonly known as the Persian lion, is a subspecies of lion that was once native across Southern Asian regions.\", \"url\": \"https://unsung-animals.fandom.com/wiki/Asiatic_Lion\"}]</PHIND_WEBRESULTS>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"flgmvzyk4ouqbce1mfhn\", \"indicator\": \"Get context\", \"parent\": \"rx3l8wj0xwyzrhcieo0w\", \"start\": 1721597991.358021, \"end\": null, \"indent\": 2, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"grlfztnmjj77h7n3xn13\", \"indicator\": \"Fetch and parse urls\", \"parent\": \"flgmvzyk4ouqbce1mfhn\", \"start\": 1721597991.3581445, \"end\": null, \"indent\": 3, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"fmg3a1x53il9wyyknxds\", \"indicator\": \"Fetch\", \"parent\": \"grlfztnmjj77h7n3xn13\", \"start\": 1721597991.358309, \"end\": null, \"indent\": 4, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\n: ping - 2024-07-21 21:39:51.734823+00:00\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"fmg3a1x53il9wyyknxds\", \"indicator\": \"Fetch\", \"end\": 1721597991.862835}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"gqtmdf9a2pbwuou0iyrl\", \"indicator\": \"Parse\", \"parent\": \"grlfztnmjj77h7n3xn13\", \"start\": 1721597991.8629138, \"end\": null, \"indent\": 4, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"gqtmdf9a2pbwuou0iyrl\", \"indicator\": \"Parse\", \"end\": 1721597991.8859494}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"grlfztnmjj77h7n3xn13\", \"indicator\": \"Fetch and parse urls\", \"end\": 1721597991.8860624}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"y1dznbdsx5glr2qcv839\", \"indicator\": \"Ranking\", \"parent\": \"flgmvzyk4ouqbce1mfhn\", \"start\": 1721597991.886112, \"end\": null, \"indent\": 3, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"zyam25li31u9eq0ukq5a\", \"indicator\": \"Context\", \"parent\": \"y1dznbdsx5glr2qcv839\", \"start\": 1721597991.8863878, \"end\": null, \"indent\": 4, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"h06l1ygdl086mchkhysj\", \"indicator\": \"Images\", \"parent\": \"y1dznbdsx5glr2qcv839\", \"start\": 1721597991.8880901, \"end\": null, \"indent\": 4, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"h06l1ygdl086mchkhysj\", \"indicator\": \"Images\", \"end\": 1721597991.8915834}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"zyam25li31u9eq0ukq5a\", \"indicator\": \"Context\", \"end\": 1721597992.1713314}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"y1dznbdsx5glr2qcv839\", \"indicator\": \"Ranking\", \"end\": 1721597992.171456}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"gk1l6t9oj2d2aci2lja6\", \"indicator\": \"Ranked images task\", \"parent\": \"flgmvzyk4ouqbce1mfhn\", \"start\": 1721597992.1714947, \"end\": null, \"indent\": 3, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"gk1l6t9oj2d2aci2lja6\", \"indicator\": \"Ranked images task\", \"end\": 1721597992.1720257}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"flgmvzyk4ouqbce1mfhn\", \"indicator\": \"Get context\", \"end\": 1721597992.1721475}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"rx3l8wj0xwyzrhcieo0w\", \"indicator\": \"Get context + DB\", \"end\": 1721597992.1725078}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"byxjzbwsv4gsg5z8zgoj\", \"indicator\": \"Build metadata\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597992.1725428, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_METADATA>{\"model_name\": \"Phind-70B\", \"mode\": \"Normal\", \"id\": \"akih8au0fiprmtl8lxfc\", \"images\": []}</PHIND_METADATA>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"byxjzbwsv4gsg5z8zgoj\", \"indicator\": \"Build metadata\", \"end\": 1721597992.1727378}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"iy9blkmhy5bsw1mtp6ag\", \"indicator\": \"Compute raw input\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597992.1727638, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"iy9blkmhy5bsw1mtp6ag\", \"indicator\": \"Compute raw input\", \"end\": 1721597992.2255523}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"hnmksswy324dqs2xq0as\", \"indicator\": \"Waiting for first token\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597992.2256083, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"hnmksswy324dqs2xq0as\", \"indicator\": \"Waiting for first token\", \"end\": 1721597992.5482173}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"fzyw7xbhhaai5ghvr6hu\", \"indicator\": \"Token stream\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721597992.5482438, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: As\r\n\r\ndata: i\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata: ,\r\n\r\ndata:  scientifically\r\n\r\ndata:  known\r\n\r\ndata:  as\r\n\r\ndata:  *\r\n\r\ndata: Pan\r\n\r\ndata: ther\r\n\r\ndata: a\r\n\r\n: ping - 2024-07-21 21:39:52.736303+00:00\r\n\r\ndata:  leo\r\n\r\ndata:  pers\r\n\r\ndata: ica\r\n\r\ndata: *,\r\n\r\ndata:  are\r\n\r\ndata:  a\r\n\r\ndata:  unique\r\n\r\ndata:  subs\r\n\r\ndata: pecies\r\n\r\ndata:  of\r\n\r\ndata:  lions\r\n\r\ndata:  primarily\r\n\r\ndata:  found\r\n\r\ndata:  in\r\n\r\ndata:  the\r\n\r\ndata:  Gir\r\n\r\ndata:  Forest\r\n\r\ndata:  of\r\n\r\ndata:  Gujarat\r\n\r\ndata: ,\r\n\r\ndata:  India\r\n\r\ndata: .\r\n\r\ndata:  This\r\n\r\ndata:  makes\r\n\r\ndata:  them\r\n\r\ndata:  ge\r\n\r\ndata: ographically\r\n\r\ndata:  isolated\r\n\r\ndata:  from\r\n\r\ndata:  their\r\n\r\ndata:  African\r\n\r\ndata:  counterparts\r\n\r\ndata: .\r\n\r\ndata:  Here\r\n\r\ndata: 's\r\n\r\ndata:  a\r\n\r\ndata:  brief\r\n\r\ndata:  overview\r\n\r\ndata:  of\r\n\r\ndata:  their\r\n\r\ndata:  characteristics\r\n\r\ndata: ,\r\n\r\ndata:  habitat\r\n\r\ndata: ,\r\n\r\ndata:  and\r\n\r\ndata:  conservation\r\n\r\ndata:  status\r\n\r\ndata: :\r\ndata: \r\ndata: \r\n\r\ndata: ###\r\n\r\ndata:  Characteristics\r\n\r\ndata: \r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: Physical\r\n\r\ndata:  Appearance\r\n\r\ndata: **:\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  are\r\n\r\ndata:  slightly\r\n\r\ndata:  smaller\r\n\r\ndata:  than\r\n\r\n: ping - 2024-07-21 21:39:53.737432+00:00\r\n\r\ndata:  African\r\n\r\ndata:  lions\r\n\r\ndata: .\r\n\r\ndata:  Their\r\n\r\ndata:  fur\r\n\r\ndata:  color\r\n\r\ndata:  ranges\r\n\r\ndata:  from\r\n\r\ndata:  r\r\n\r\ndata: uddy\r\n\r\ndata: -t\r\n\r\ndata: aw\r\n\r\ndata: ny\r\n\r\ndata:  to\r\n\r\ndata:  sandy\r\n\r\ndata:  or\r\n\r\ndata:  buff\r\n\r\ndata: ish\r\n\r\ndata:  grey\r\n\r\ndata: ,\r\n\r\ndata:  sometimes\r\n\r\ndata:  with\r\n\r\ndata:  a\r\n\r\ndata:  sil\r\n\r\ndata: very\r\n\r\ndata:  she\r\n\r\ndata: en\r\n\r\ndata: .\r\n\r\ndata:  M\r\n\r\ndata: ales\r\n\r\ndata:  have\r\n\r\ndata:  a\r\n\r\ndata:  relatively\r\n\r\ndata:  short\r\n\r\ndata: ,\r\n\r\ndata:  sparse\r\n\r\ndata: ,\r\n\r\ndata:  and\r\n\r\ndata:  darker\r\n\r\ndata:  mane\r\n\r\ndata:  compared\r\n\r\ndata:  to\r\n\r\ndata:  African\r\n\r\n: ping - 2024-07-21 21:39:54.738060+00:00\r\n\r\ndata:  lions\r\n\r\ndata: ,\r\n\r\ndata:  allowing\r\n\r\ndata:  their\r\n\r\ndata:  ears\r\n\r\ndata:  to\r\n\r\ndata:  remain\r\n\r\ndata:  visible\r\n\r\ndata:  at\r\n\r\ndata:  all\r\n\r\ndata:  times\r\n\r\ndata: .\r\n\r\ndata:  A\r\n\r\ndata:  distinguishing\r\n\r\ndata:  feature\r\n\r\ndata:  is\r\n\r\ndata:  the\r\n\r\ndata:  longitudinal\r\n\r\ndata:  fold\r\n\r\ndata:  of\r\n\r\ndata:  skin\r\n\r\ndata:  running\r\n\r\ndata:  along\r\n\r\ndata:  their\r\n\r\ndata:  belly\r\n\r\ndata: ,\r\n\r\ndata:  absent\r\n\r\ndata:  in\r\n\r\ndata:  African\r\n\r\ndata:  lions\r\n\r\ndata:  [\r\n\r\ndata: 0\r\n\r\ndata: ][\r\n\r\ndata: 1\r\n\r\ndata: ].\r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: Size\r\n\r\ndata:  and\r\n\r\ndata:  Weight\r\n\r\ndata: **:\r\n\r\ndata:  Adult\r\n\r\ndata:  male\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  weigh\r\n\r\ndata:  an\r\n\r\ndata:  average\r\n\r\ndata:  of\r\n\r\ndata:  \r\n\r\ndata: 160\r\n\r\ndata: .\r\n\r\ndata: 1\r\n\r\ndata:  kg\r\n\r\ndata:  (\r\n\r\ndata: 353\r\n\r\ndata:  lb\r\n\r\ndata: ),\r\n\r\ndata:  with\r\n\r\n: ping - 2024-07-21 21:39:55.739092+00:00\r\n\r\ndata:  females\r\n\r\ndata:  weighing\r\n\r\ndata:  between\r\n\r\ndata:  \r\n\r\ndata: 100\r\n\r\ndata:  to\r\n\r\ndata:  \r\n\r\ndata: 130\r\n\r\ndata:  kg\r\n\r\ndata:  (\r\n\r\ndata: 220\r\n\r\ndata:  to\r\n\r\ndata:  \r\n\r\ndata: 285\r\n\r\ndata:  lb\r\n\r\ndata: ).\r\n\r\ndata:  M\r\n\r\ndata: ales\r\n\r\ndata:  can\r\n\r\ndata:  reach\r\n\r\ndata:  a\r\n\r\ndata:  shoulder\r\n\r\ndata:  height\r\n\r\ndata:  of\r\n\r\ndata:  up\r\n\r\ndata:  to\r\n\r\ndata:  \r\n\r\ndata: 107\r\n\r\ndata: –\r\n\r\ndata: 120\r\n\r\ndata:  cm\r\n\r\ndata:  (\r\n\r\ndata: 42\r\n\r\ndata: –\r\n\r\ndata: 47\r\n\r\ndata:  in\r\n\r\ndata: ),\r\n\r\ndata:  while\r\n\r\ndata:  females\r\n\r\ndata:  stand\r\n\r\ndata:  at\r\n\r\ndata:  \r\n\r\ndata: 80\r\n\r\ndata: –\r\n\r\ndata: 107\r\n\r\ndata:  cm\r\n\r\ndata:  (\r\n\r\ndata: 31\r\n\r\ndata: +\r\n\r\ndata: 1\r\n\r\ndata: ⁄2\r\n\r\ndata: –\r\n\r\ndata: 42\r\n\r\ndata:  in\r\n\r\ndata: )\r\n\r\ndata:  [\r\n\r\ndata: 1\r\n\r\ndata: ].\r\ndata: \r\ndata: \r\n\r\n: ping - 2024-07-21 21:39:56.740394+00:00\r\n\r\ndata: ###\r\n\r\ndata:  Habitat\r\n\r\ndata:  and\r\n\r\ndata:  Diet\r\n\r\ndata: \r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: Current\r\n\r\ndata:  Range\r\n\r\ndata: **:\r\n\r\ndata:  Their\r\n\r\ndata:  range\r\n\r\ndata:  is\r\n\r\ndata:  restricted\r\n\r\ndata:  to\r\n\r\ndata:  Gir\r\n\r\ndata:  National\r\n\r\ndata:  Park\r\n\r\ndata:  and\r\n\r\ndata:  surrounding\r\n\r\ndata:  areas\r\n\r\ndata:  in\r\n\r\ndata:  Gujarat\r\n\r\ndata: ,\r\n\r\ndata:  India\r\n\r\ndata: .\r\n\r\ndata:  Histor\r\n\r\ndata: ically\r\n\r\ndata: ,\r\n\r\ndata:  they\r\n\r\ndata:  were\r\n\r\ndata:  found\r\n\r\ndata:  across\r\n\r\ndata:  Asia\r\n\r\ndata: ,\r\n\r\ndata:  from\r\n\r\ndata:  Turkey\r\n\r\ndata:  to\r\n\r\ndata:  eastern\r\n\r\ndata:  India\r\n\r\ndata: ,\r\n\r\ndata:  but\r\n\r\ndata:  hunting\r\n\r\ndata:  and\r\n\r\ndata:  habitat\r\n\r\ndata:  loss\r\n\r\ndata:  have\r\n\r\ndata:  confined\r\n\r\ndata:  them\r\n\r\ndata:  to\r\n\r\ndata:  this\r\n\r\ndata:  single\r\n\r\ndata:  location\r\n\r\ndata:  [\r\n\r\ndata: 1\r\n\r\ndata: ].\r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: D\r\n\r\n: ping - 2024-07-21 21:39:57.740985+00:00\r\n\r\ndata: iet\r\n\r\ndata: **:\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  are\r\n\r\ndata:  carniv\r\n\r\ndata: ores\r\n\r\ndata: ,\r\n\r\ndata:  feeding\r\n\r\ndata:  on\r\n\r\ndata:  both\r\n\r\ndata:  large\r\n\r\ndata:  and\r\n\r\ndata:  small\r\n\r\ndata:  mamm\r\n\r\ndata: al\r\n\r\ndata:  prey\r\n\r\ndata:  such\r\n\r\ndata:  as\r\n\r\ndata:  deer\r\n\r\ndata: ,\r\n\r\ndata:  wild\r\n\r\ndata:  bo\r\n\r\ndata: ar\r\n\r\ndata: ,\r\n\r\ndata:  ant\r\n\r\ndata: elope\r\n\r\ndata: ,\r\n\r\ndata:  and\r\n\r\ndata:  occasionally\r\n\r\ndata:  domestic\r\n\r\ndata:  cattle\r\n\r\ndata:  [\r\n\r\ndata: 0\r\n\r\ndata: ].\r\ndata: \r\ndata: \r\n\r\ndata: ###\r\n\r\ndata:  Conservation\r\n\r\ndata:  Status\r\n\r\ndata: \r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: Population\r\n\r\ndata: **:\r\n\r\ndata:  There\r\n\r\ndata:  are\r\n\r\ndata:  only\r\n\r\n: ping - 2024-07-21 21:39:58.741655+00:00\r\n\r\ndata:  several\r\n\r\ndata:  hundred\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  left\r\n\r\ndata:  in\r\n\r\ndata:  the\r\n\r\ndata:  wild\r\n\r\ndata: .\r\n\r\ndata:  Their\r\n\r\ndata:  population\r\n\r\ndata:  has\r\n\r\ndata:  seen\r\n\r\ndata:  a\r\n\r\ndata:  steady\r\n\r\ndata:  increase\r\n\r\ndata:  since\r\n\r\ndata:  \r\n\r\ndata: 201\r\n\r\ndata: 0\r\n\r\ndata: ,\r\n\r\ndata:  with\r\n\r\ndata:  estimates\r\n\r\ndata:  around\r\n\r\ndata:  \r\n\r\ndata: 650\r\n\r\ndata:  individuals\r\n\r\ndata:  as\r\n\r\ndata:  of\r\n\r\ndata:  \r\n\r\ndata: 201\r\n\r\ndata: 7\r\n\r\ndata:  [\r\n\r\ndata: 1\r\n\r\ndata: ].\r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  **\r\n\r\ndata: Th\r\n\r\ndata: reat\r\n\r\ndata: s\r\n\r\ndata: **:\r\n\r\ndata:  Despite\r\n\r\ndata:  being\r\n\r\ndata:  protected\r\n\r\ndata:  within\r\n\r\ndata:  Gir\r\n\r\n: ping - 2024-07-21 21:39:59.742382+00:00\r\n\r\ndata:  National\r\n\r\ndata:  Park\r\n\r\ndata: ,\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  face\r\n\r\ndata:  threats\r\n\r\ndata:  from\r\n\r\ndata:  disease\r\n\r\ndata: ,\r\n\r\ndata:  disaster\r\n\r\ndata: ,\r\n\r\ndata:  potential\r\n\r\ndata:  po\r\n\r\ndata: aching\r\n\r\ndata: ,\r\n\r\ndata:  and\r\n\r\ndata:  habitat\r\n\r\ndata:  enc\r\n\r\ndata: ro\r\n\r\ndata: achment\r\n\r\ndata:  due\r\n\r\ndata:  to\r\n\r\ndata:  a\r\n\r\ndata:  growing\r\n\r\ndata:  human\r\n\r\ndata:  population\r\n\r\ndata:  needing\r\n\r\ndata:  land\r\n\r\ndata:  for\r\n\r\ndata:  cattle\r\n\r\ndata:  and\r\n\r\ndata:  crops\r\n\r\ndata:  [\r\n\r\ndata: 0\r\n\r\ndata: ].\r\ndata: \r\ndata: \r\n\r\ndata: ###\r\n\r\ndata:  Interesting\r\n\r\ndata:  Facts\r\n\r\ndata: \r\ndata: \r\n\r\ndata: -\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  differ\r\n\r\ndata:  from\r\n\r\ndata:  African\r\n\r\n: ping - 2024-07-21 21:40:00.743552+00:00\r\n\r\ndata:  lions\r\n\r\ndata:  not\r\n\r\ndata:  just\r\n\r\ndata:  in\r\n\r\ndata:  physical\r\n\r\ndata:  characteristics\r\n\r\ndata:  but\r\n\r\ndata:  also\r\n\r\ndata:  in\r\n\r\ndata:  social\r\n\r\ndata:  behavior\r\n\r\ndata: .\r\n\r\ndata:  Unlike\r\n\r\ndata:  African\r\n\r\ndata:  lions\r\n\r\ndata: ,\r\n\r\ndata:  male\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  do\r\n\r\ndata:  not\r\n\r\ndata:  tend\r\n\r\ndata:  to\r\n\r\ndata:  live\r\n\r\ndata:  with\r\n\r\ndata:  the\r\n\r\ndata:  females\r\n\r\ndata:  of\r\n\r\ndata:  their\r\n\r\ndata:  pride\r\n\r\ndata:  unless\r\n\r\ndata:  mating\r\n\r\ndata:  or\r\n\r\ndata:  sharing\r\n\r\ndata:  a\r\n\r\ndata:  large\r\n\r\ndata:  kill\r\n\r\ndata:  [\r\n\r\ndata: 0\r\n\r\ndata: ].\r\ndata: \r\ndata: \r\n\r\ndata: In\r\n\r\ndata:  summary\r\n\r\ndata: ,\r\n\r\ndata:  Asi\r\n\r\ndata: atic\r\n\r\ndata:  lions\r\n\r\ndata:  are\r\n\r\ndata:  a\r\n\r\ndata:  critically\r\n\r\ndata:  endangered\r\n\r\ndata:  subs\r\n\r\ndata: pecies\r\n\r\ndata:  with\r\n\r\ndata:  unique\r\n\r\ndata:  characteristics\r\n\r\ndata:  and\r\n\r\ndata:  a\r\n\r\ndata:  precarious\r\n\r\n: ping - 2024-07-21 21:40:01.744108+00:00\r\n\r\ndata:  existence\r\n\r\ndata:  in\r\n\r\ndata:  their\r\n\r\ndata:  sole\r\n\r\ndata:  remaining\r\n\r\ndata:  habitat\r\n\r\ndata:  in\r\n\r\ndata:  India\r\n\r\ndata: .\r\n\r\ndata:  Conservation\r\n\r\ndata:  efforts\r\n\r\ndata:  are\r\n\r\ndata:  vital\r\n\r\ndata:  to\r\n\r\ndata:  ensure\r\n\r\ndata:  their\r\n\r\ndata:  survival\r\n\r\ndata:  against\r\n\r\ndata:  numerous\r\n\r\ndata:  threats\r\n\r\ndata: .\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"fzyw7xbhhaai5ghvr6hu\", \"indicator\": \"Token stream\", \"end\": 1721598002.1137657}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_DONE/>\r\n\r\ndata: <PHIND_SPAN_BEGIN>{\"id\": \"wwxicmtitbckvfplmppc\", \"indicator\": \"Followups\", \"parent\": \"n2hdh00cz3w3c8o4xr21\", \"start\": 1721598002.1142042, \"end\": null, \"indent\": 1, \"children\": []}</PHIND_SPAN_BEGIN>\r\n\r\ndata: <PHIND_FOLLOWUP>\"What factors led to the decline of Asiatic lion populations across Asia?\"</PHIND_FOLLOWUP>\r\n\r\ndata: <PHIND_FOLLOWUP>\"How are conservation efforts currently being implemented to protect Asiatic lions in Gir National Park?\"</PHIND_FOLLOWUP>\r\n\r\ndata: <PHIND_FOLLOWUP>\"Are there any breeding programs in place to increase the population of Asiatic lions outside their natural habitat?\"</PHIND_FOLLOWUP>\r\n\r\n: ping - 2024-07-21 21:40:02.744869+00:00\r\n\r\ndata: <PHIND_FOLLOWUP>\"Can you describe any notable differences in the social structures of Asiatic lion prides compared to those of African lions?\"</PHIND_FOLLOWUP>\r\n\r\ndata: <PHIND_FOLLOWUP>\"Have there been any attempts to reintroduce Asiatic lions into other parts of their historical range?\"</PHIND_FOLLOWUP>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"wwxicmtitbckvfplmppc\", \"indicator\": \"Followups\", \"end\": 1721598002.9926841}</PHIND_SPAN_END>\r\n\r\ndata: <PHIND_SPAN_END>{\"id\": \"n2hdh00cz3w3c8o4xr21\", \"indicator\": \"Total answer\", \"end\": 1721598002.9986217}</PHIND_SPAN_END>\r\n\r\n"
+        }
+    }
+}

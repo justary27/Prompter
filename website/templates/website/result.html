@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title> 
+    <link rel="stylesheet" href="/static/css/main.css"> 
+    <style>
+        body{
+            margin: 1rem;
+        }
+        pre {
+            background: rgb(61, 61, 61);
+            border-radius: .4em;
+            margin: 1rem;
+            padding: 0.5rem;
+        }
+        code {
+            background: rgb(61, 61, 61);
+            padding: 4px;
+            border-radius: .4em;
+            color: white;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        blockquote {
+            border-left: 4px solid bisque;
+            padding-left: .5em;
+            color: #353535bc;
+        }
+    </style>  
+</head>
+<body>
+    <div class="result-container">
+        <h1>Generated Schema</h1>
+        <br>
+        <div id="markdown-content"></div>
+        <a href="{% url 'index' %}">Back to prompt</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Example schema data
+        const schema = `{{ schema|escapejs }}`;
+
+        // Render markdown content
+        document.getElementById('markdown-content').innerHTML = marked.parse(schema);
+    </script>
+</body>
+</html>
